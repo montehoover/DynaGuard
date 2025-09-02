@@ -1,6 +1,6 @@
 # DynaGuard
 
-Dynamic Guardian Models: Realtime Content Moderation With User-Defined Policies
+DynaGuard: A Dynamic Guardrail Model With User-Defined Policies.
 
 A  project by: Monte Hoover, Vatsal Baherwani, Neel Jain, Khalid Saifullah, Joseph Vincent, Chirag Jain, Melissa Kazemi Rad, C. Bayan Bruss, Ashwinee Panda, and Tom Goldstein.
 
@@ -18,7 +18,7 @@ A  project by: Monte Hoover, Vatsal Baherwani, Neel Jain, Khalid Saifullah, Jose
 To cite our work, please use this bibtex.
 ```
 @article{hoover2025dynamic
-    title={Dynamic Guardian Models: Realtime Content Moderation With User-Defined Policies.}, 
+    title={DynaGuard: A Dynamic Guardrail Model With User-Defined Policies.}, 
     author={Monte Hoover and Vatsal Baherwani and Neel Jain and Khalid Saifullah and Joseph Vincent and Chirag Jain and Melissa Kazemi Rad and C. Bayan Bruss and Ashwinee Panda and Tom Goldstein.},
     journal={arXiv preprint},
     year={2025},
