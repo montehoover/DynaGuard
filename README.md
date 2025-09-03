@@ -14,6 +14,22 @@ A  project by: Monte Hoover, Vatsal Baherwani, Neel Jain, Khalid Saifullah, Jose
 <br>
 </p>
 
+
+## Getting Started
+1. Install dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
+2. Evaluate a model on custom policies:
+    ```
+    python eval.py
+    ```
+    or
+    ```
+    python eval.py --model tomg-group-umd/DynaGuard-8B --dataset tomg-group-umd/DynaBench --subset DynaBench --split test
+    ```
+
+
 ## Citing Our Work
 To cite our work, please use this bibtex.
 ```
