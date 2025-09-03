@@ -170,7 +170,8 @@ class HfModelWrapper(LocalModelWrapper):
         neg_token_id = self.tokenizer.encode(neg_label, add_special_tokens=False)[0]
         
         inputs = self.tokenizer(message, return_tensors="pt").to(self.model.device)
-        logits = self.model(**inputs).logits
+        with torch.no_grad():
+            logits = self.model(**inputs).logits
         prediction_logits = logits[0, -1, :] # Next token prediction logits are last in the sequence
         # predicted_token_id = torch.argmax(prediction_logits).item()
         # if not predicted_token_id in [pos_token_id, neg_token_id] and strict:
@@ -253,7 +254,8 @@ class VllmModelWrapper(LocalModelWrapper):
         sampling_params = SamplingParams(max_tokens=1, logprobs=20)
         # responses -> List[obj(prompt, outputs -> List[obj(text, logprobs, index, token_ids, cumulative_logprobs)])]
         # loggprobs -> List[{token_id: obj(logprob, rank, decoded_token)}]
-        responses = self.model.generate(messages, sampling_params=sampling_params)
+        with torch.no_grad():
+            responses = self.model.generate(messages, sampling_params=sampling_params)
         prob_pairs = []
         for response in responses:
             token_logprob_dict = response.outputs[0].logprobs[0]
