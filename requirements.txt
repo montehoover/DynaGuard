@@ -1,10 +1,8 @@
 # Inference (consider separate env to avoid CUDA clashes)
 vllm==0.7.3
+
 # Core model/training stack
 torch
-torchvision
-torchaudio
-
 transformers==4.51.0
 accelerate
 trl
@@ -15,13 +13,6 @@ peft
 # GPU add-ons (remove on CPU-only)
 xformers
 bitsandbytes
-unsloth
-unsloth_zoo
-
-
-
-# Diffusion
-diffusers
 
 # Data & numeric
 numpy
