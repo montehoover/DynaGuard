@@ -9,7 +9,7 @@ A  project by: Monte Hoover, Vatsal Baherwani, Neel Jain, Khalid Saifullah, Jose
 <img style="height:22pt" src="https://img.shields.io/badge/-Paper-B31B1B?style=flat&logo=arxiv">
 <a target="_blank" href="https://taruschirag.github.io/DynaGuard/">
 <img style="height:22pt" src="https://img.shields.io/badge/-🌐%20Website-1E8BC3?style=flat">
-<a target="_blank" href="https://huggingface.co/spaces/tomg-group-umd/DynaGuard">
+<a target="_blank" href="https://huggingface.co/collections/tomg-group-umd/dynaguard-68af4d916ae81d06ef774523">
 <img style="height:22pt" src="https://img.shields.io/badge/-🤗%20Models-red?style=flat"></a>
 <br>
 </p>

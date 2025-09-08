@@ -138,7 +138,7 @@ def main(args):
     ###############
     print("Turning dataset into LLM message strings..")
     is_compliance_dataset = (
-        (args.subset is not None and "compliance" in args.subset) or 
+        (args.subset is not None and "DynaBench" in args.subset) or 
         ("tomg" in args.model and args.subset == "wildguard")) # We have a compliance-formatted version of the wildguard dataset.
         
     #########
@@ -146,8 +146,8 @@ def main(args):
     #########
     if is_compliance_dataset:
         # DynaGuard dataset:
-        transcripts = [extract_xml_answer(x[INPUT_FIELD], "<transcript>", "</transcript>") for x in dataset]
-        policies = [extract_xml_answer(x[INPUT_FIELD], "<rules>", "</rules>") for x in dataset]
+        transcripts = [x["transcript"] for x in dataset]
+        policies = [x["policy"] for x in dataset]
 
     else:
         # Safety dataset:

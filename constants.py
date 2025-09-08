@@ -1,5 +1,5 @@
 INPUT_FIELD = "question"
-OUTPUT_FIELD = "answer"
+OUTPUT_FIELD = "label"
 UNSLOTH_INPUT_FIELD = "question"
 UNSLOTH_OUTPUT_FIELD = "answer"
 TORCHTUNE_INPUT_FIELD = "input"
