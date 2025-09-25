@@ -424,15 +424,17 @@ def main(args):
 def parse_args():
     parser = argparse.ArgumentParser(description="Convert model to HuggingFace format")
     # parser.add_argument('--model', default="gpt-4o-mini", type=str, help="Model name to load")
-    # parser.add_argument("--model", default="Qwen/Qwen2.5-7B-Instruct", type=str, help="Model name to load")
-    parser.add_argument("--model", default="tomg-group-umd/Qwen3-8B_train_80k_mix_sft_lr1e-5_bs128_ep1_grpo_ex3000_lr1e-6_bs48_len1024", type=str, help="Model name to load")
+    # parser.add_argument("--model", default="Qwen/Qwen3-0.6B", type=str, help="Model name to load")
+    parser.add_argument("--model", default="tomg-group-umd/DynaGuard-8B", type=str, help="Model name to load")
     parser.add_argument("--lora_path",  default=None, type=str, help="Path to lora adapter")
-    # parser.add_argument("--lora_path",  default="/fs/cml-projects/guardian_models/models/Qwen2.5-7B-Instruct/lora_7500/epoch_2", type=str, help="Path to lora adapter")
     
-    # parser.add_argument("--dataset_path", default="/Users/monte/code/system-prompt-compliance/output/formatted/compliance/test_handcrafted_v2.jsonl", type=str, help="Path to dataset")
-    parser.add_argument("--dataset_path", default="tomg-group-umd/compliance", type=str, help="Path to dataset")
-    parser.add_argument("--subset", default=None, type=str, help="Subset of the dataset to use")
-    parser.add_argument("--split", default=None, type=str, help="Split of the dataset to use")
+    parser.add_argument("--dataset_path", default="tomg-group-umd/DynaBench", type=str, help="Path to dataset")
+    parser.add_argument("--subset", default="DynaBench", type=str, help="Subset of the dataset to use")
+    parser.add_argument("--split", default="test", type=str, help="Split of the dataset to use")
+    parser.add_argument("--label_col", default="label", type=str, help="Custom label column to use for evaluation. If not provided, uses the default label column.")
+    parser.add_argument("--pos_label", default="FAIL", type=str, help="Custom positive label to use for evaluation. If not provided, uses the default positive label.")
+    parser.add_argument("--neg_label", default="PASS", type=str, help="Custom negative label to use for evaluation. If not provided, uses the default negative label.")
+    parser.add_argument("--input_cols", default=None, type=str, help="Comma-separated list of column names to concatenate into the input field (e.g., 'prompt,response')")
     
     parser.add_argument("--num_examples", default=-1, type=int, help="Number of examples to evaluate")
     parser.add_argument("--log_level", default=None, type=str, help="Log level", choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL", "debug", "info", "warning", "error", "critical"])
@@ -462,11 +464,6 @@ def parse_args():
     parser.add_argument("--eval_with_target_fpr", default=False, action=argparse.BooleanOptionalAction, help="Run once to collect the logit bias required to achieve the target FPR. Then run again with this logit bias to get the final F1 score.")
     parser.add_argument("--auc_only", default=False, action=argparse.BooleanOptionalAction, help="Run only the AUC calculation and not the full evaluation. Useful for debugging logit bias.")
     parser.add_argument("--cot_auc", default=False, action=argparse.BooleanOptionalAction, help="Use COT for AUC calculation. If not set, uses non-COT messages for AUC calculation.")
-    parser.add_argument("--label_col", default=None, type=str, help="Custom label column to use for evaluation. If not provided, uses the default label column.")
-    parser.add_argument("--pos_label", default=None, type=str, help="Custom positive label to use for evaluation. If not provided, uses the default positive label.")
-    parser.add_argument("--neg_label", default=None, type=str, help="Custom negative label to use for evaluation. If not provided, uses the default negative label.")
-    parser.add_argument("--input_cols", type=str, default=None, help="Comma-separated list of column names to concatenate into the input field (e.g., 'prompt,response')"
-)
 
     return parser.parse_args()
 

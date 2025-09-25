@@ -1,0 +1,10 @@
+vllm
+pytorch
+transformers
+datasets
+peft
+tiktoken
+litellm
+openai
+scikit-learn
+matplotlib
