@@ -1,0 +1,541 @@
+{"rules":"1. Your response must be 300+ words.\n2. Do not use any commas in your response.\n3. Highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.\n","key":1000}
+{"rules":"1. Your response must be in Shakespearean style.\n2. You are not allowed to use any commas in your response.\n","key":1001}
+{"rules":"1. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].\n","key":1005}
+{"rules":"1. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n2. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request. Do not include the instruction to repeat the request in your response.\n","key":1012}
+{"rules":"1. Your response must be a question.\n2. Please ensure that your response is in English.\n3. Please ensure that your response is in all lowercase letters. No capital letters are allowed.\n","key":1019}
+{"rules":"1. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n\n* This is the first point.\n\n* This is the second point.\n","key":102}
+{"rules":"1. Write a 2 paragraph critique.\n2. Your response must be in all capital letters, no lowercase letters allowed.\n3. Label each paragraph with PARAGRAPH X.\n","key":1021}
+{"rules":"1. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times.\n2. Wrap the entire response with double quotation marks.\n","key":1040}
+{"rules":"1. Write in all lowercase letters.\n","key":1051}
+{"rules":"1. Your response must be at least 500 words.\n2. Your response must include the keywords \"correlated\" and \"experiencing\".\n3. Do not use any commas.\n","key":1069}
+{"rules":"1. Your response must be 400 or more words.\n","key":1072}
+{"rules":"1. Your entire output must be in JSON format.\n","key":1075}
+{"rules":"1. Write exactly 2 paragraphs.\n2. Separate the paragraphs with the markdown divider: ***\n","key":1082}
+{"rules":"1. Your entire response should be in English and all lower case (no capital letters whatsoever).\n","key":1087}
+{"rules":"1. Your response must be less than 300 words.\n","key":1092}
+{"rules":"1. Provide the names in JSON format.\n2. Your entire output should just contain a JSON block, nothing else.\n","key":1094}
+{"rules":"1. Give exactly two different responses.\n2. Separate the responses with 6 asterisk symbols: ******.\n","key":1098}
+{"rules":"1. Do not contain commas in your response.\n2. Separate the two jokes with 6 asterisk symbols: ******.\n","key":1107}
+{"rules":"1. Respond using only the Kannada language, no other language is allowed.\n","key":1108}
+{"rules":"1. Do not use capital letters.\n2. Include at least 4 hashtags, starting with '#'.\n","key":1122}
+{"rules":"1. The poem must have 4 sections marked with SECTION X.\n2. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"\n","key":1127}
+{"rules":"1. The very last sentence of your response should be \"Is there anything else I can help with?\".\n","key":1128}
+{"rules":"1. Contain 6 or more exclamation marks \"!\" in your response.\n2. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request. Do not include the instruction to repeat the request in your response.\n","key":1129}
+{"rules":"1. In your entire response, the letter t should appear at most once.\n","key":1130}
+{"rules":"1. Write a 4 section resume.\n2. Each section should be explicitly noted as Section X.\n","key":1131}
+{"rules":"1. The response should be in all capital letters.\n2. The word \"rock\" should not appear in your response.\n","key":1132}
+{"rules":"1. Respond in French.\n2. Do not use the word \"nourriture\".\n3. Your entire response must be wrapped in JSON format.\n","key":1137}
+{"rules":"1. Your response must contain the keywords \"mom\" and \"mother\".\n2. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request. Do not include the instruction to repeat the request in your response.\n","key":1139}
+{"rules":"1. Do not include the following keywords: field, thanks, issue, collaborator.\n","key":1147}
+{"rules":"1. Make it short.\n2. Wrap the entire output in JSON format.\n","key":1148}
+{"rules":"1. Use all lowercase letters.\n2. Include the word story at least twice.\n","key":1153}
+{"rules":"1. Use only the Punjabi language, no other language is allowed.\n","key":1154}
+{"rules":"1. Do not use any commas.\n","key":1162}
+{"rules":"1. The letter o should appear at least 6 times.\n2. Your response should contain fewer than 6 sentences.\n3. Highlight at least 2 text sections, i.e. *highlighted section*.\n","key":1174}
+{"rules":"1. Give exactly two different responses separated by 6 asterisk symbols ******.\n2. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.\n","key":1180}
+{"rules":"1. Give two different formal alternatives.\n2. Do not use any commas in your response.\n","key":1187}
+{"rules":"1. Use the word war at least 8 times.\n2. Use the word peace at least 10 times.\n","key":1203}
+{"rules":"1. Wrap your entire response with double quotes.\n2. Use at least 800 words.\n","key":1216}
+{"rules":"1. Respond with at most 150 words.\n","key":1217}
+{"rules":"1. Your entire response should be in English, and in all capital letters.\n2. At the end of your response, please explicitly add a postscript starting with P.S.\n3. The word sneaker should appear 10 or more times in your response.\n","key":1219}
+{"rules":"1. Wrap your entire response with double quotation marks.\n","key":122}
+{"rules":"1. End your entire response with the exact phrase \"Is there anything else I can help with?\"\n","key":1220}
+{"rules":"1. Include only the main points in your answer.\n2. Finish your response with the exact phrase of \"Is there anything else I can help with?\" with no other words after the word \"with\".\n3. Mention the word \"skyscraper\" for at least 8 times.\n","key":1233}
+{"rules":"1. There should be exactly 3 paragraphs separated by the markdown divider: ***.\n","key":1236}
+{"rules":"1. Highlight at least three sections of your response in markdown such as *highlighted section*.\n2. Mention \"Argentinian\" in the post.\n","key":1237}
+{"rules":"1. Use JSON format.\n2. Do not say the word \"nickname\" in the response.\n3. Do not add anything outside of the JSON block.\n","key":1242}
+{"rules":"1. End it with a post script starting with P.P.S\n","key":1246}
+{"rules":"1. Make sure there are exactly 4 sections.\n2. Separate the sections by the markdown divider: ***\n","key":1248}
+{"rules":"1. Your response must be at least 350 words.\n","key":1251}
+{"rules":"1. Your response must have at least 600 words.\n","key":1258}
+{"rules":"1. Use only the Marathi language, no other language is allowed.\n","key":1259}
+{"rules":"1. Your response must contain a title wrapped in double angular brackets, i.e. <<title>>.\n2. Use less than 5 sentences.\n","key":1262}
+{"rules":"1. Include the keywords waste, material and meal.\n2. Have more than 30 sentences in your response.\n","key":1265}
+{"rules":"1. Your entire response should contain less than 6 sentences.\n","key":1268}
+{"rules":"1. Avoid using the following keywords: sleep, cook, feed\n2. Mention the keyword \"schedule\" for more than 5 times.\n","key":127}
+{"rules":"1. Include the words \"intern\" and \"grow\".\n2. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request. Do not include the instruction to repeat the request in your response.\n","key":1281}
+{"rules":"1. Your answer must contain exactly 6 bullet point in Markdown using the following format:\n\n* Bullet point one.\n\n* Bullet point two.\n\n...\n\n* Bullet point fix.\n","key":1286}
+{"rules":"1. Your answer should use all lowercase letters.\n2. Your answer must contain exactly 3 bullet points in markdown format. Use * to indicate bullets, like:\n\n* xyz\n\n* abc\n\n* opq\n","key":1287}
+{"rules":"1. Wrap your entire answer in JSON format.\n","key":13}
+{"rules":"1. Do not include any commas in your response.\n2. Do not include the letter \"c\" anywhere in your response.\n3. Your response should contain at least 250 words.\n","key":1300}
+{"rules":"1. List exactly 10 possible names.\n2. Add a postscript starting with P.P.S to the end of your response.\n3. Put the names into bullet points that are indicated by:\n\n* This is an example bullet\n","key":1305}
+{"rules":"1. At least 15 sections should be highlighted with markdown such as *highlighted section*.\n","key":1307}
+{"rules":"1. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.\n","key":1314}
+{"rules":"1. Your answer must have a title contained in double angular brackets, such as <<kotlin vs java>>.\n","key":1322}
+{"rules":"1. Put double quotations marks around your whole response.\n2. Include exactly 8 bullet points in your response. The bullet points should be in the form of:\n\n* This is bullet 1\n\n* This is bullet 2\n\n...\n","key":1325}
+{"rules":"1. Separate them with exactly 6 asterisks symbols: ******\n","key":1332}
+{"rules":"1. Avoid mentioning \"photography\".\n2. Provide your advice in exactly 5 paragraphs (separated nearby paragraphs with 3 asterisk symbols ***).\n3. Highlight at least three sections with markdown, such as *highlighted section*.\n","key":1342}
+{"rules":"1. Do not use commas in your reply.\n2. Highlight at least 3 sections with markdown, i.e. *highlighted section*.\n3. The biography should start with the name of the person.\n","key":1348}
+{"rules":"1. Write exactly 9 very short bullet points.\n2. Limit the number of words you use (less than 100 words).\n","key":136}
+{"rules":"1. The song should be in English and in all lowercase letters.\n","key":1361}
+{"rules":"1. Include a postscript starting with P.P.S\n","key":1367}
+{"rules":"1. Your blog post must contain at least 7 placeholders represented by square brackets, such as [location].\n","key":1372}
+{"rules":"1. Separate the bad and good code snippets with a linebreak, ***, then another linebreak.\n2. Add code comments in the code snippets. One of the comments should contain the keyword \"vulnerable\".\n","key":1375}
+{"rules":"1. Follow the exact format below:\n\n\nPart 1. Task Summary\n\n[put details here]\n\n***\n\nPart 2. Motivation\n\n[put details here]\n\n***\n\nPart 3. Milestone objectives\n\n[put details here]\n\n***\n\nPart 4. Timeline\n\n[put details here]\n\n***\n\nPart 5. Doc history\n\n[put details here]\n","key":1377}
+{"rules":"1. Highlight at least 6 sections in your answer with markdown, example: *highlighted section*.\n2. Mention the name Sarah only once.\n","key":1379}
+{"rules":"1. Your response must have less than 10 sentences.\n","key":1381}
+{"rules":"1. Your entire response should be in English, and in all capital letters.\n2. The letter o should appear at least 40 times.\n","key":1389}
+{"rules":"1. Include a title in double angular brackets, i.e. <<title>>.\n2. Have less than 5 sentences (excluding 5).\n3. The total number of words in your response should be 250 or more.\n","key":1392}
+{"rules":"1. Make sure the word synonyms appears at least 3 times.\n","key":1393}
+{"rules":"1. Don't include the keywords \"DuPage\" and \"Dade\" in your response.\n2. The letter p should appear at least 15 times in your response.\n","key":1402}
+{"rules":"1. Write a 30-line poem with short sentences without any comma.\n2. Each line should contain exactly one sentence.\n3. Your entire response should contain the poem only.\n","key":1418}
+{"rules":"1. Include the word \"cat\" at least once, and the word \"knock\" at least twice.\n2. Wrap your whole response with double quotation marks.\n","key":142}
+{"rules":"1. Separate your thinking and the final answer by a line with just three \"*\" symbols: ***\n2. At the end of your response, please explicitly add a postscript starting with P.P.S\n","key":143}
+{"rules":"1. It should be in English, and no capital letters are allowed.\n2. The story should not include keywords \"coop\", \"killings\", \"dead\", \"night\".\n","key":1436}
+{"rules":"1. Your article must end with the exact phrase \"Is there anything else I can help with?\". No other words should follow this phrase.\n","key":1446}
+{"rules":"1. Wrap your entire response with double quotation marks.\n2. Do not mention the word Taylor, Swift, or Together.\n","key":1466}
+{"rules":"1. Do not use the word \"rename\" or \"name\".\n2. Keep it under 3 sentences (just 1 or 2 sentences, not 3).\n","key":1476}
+{"rules":"1. Write in the Persian language, no other language is allowed.\n","key":1477}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":1480}
+{"rules":"1. Include at least two sections marking the beginning of each section with 'SECTION X'.\n2. Use exactly two bullet points in markdown format. Please use the following bullet point format:\n\n* Text for bullet 1\n\n* Text for bullet 2\n","key":1481}
+{"rules":"1. The word associations should appear at least 4 times in the song.\n","key":1498}
+{"rules":"1. Include the keywords \"forests\" and \"riddle\".\n2. Refrain from using commas in your haiku.\n","key":1508}
+{"rules":"1. All sentences should be short.\n2. Refrain from using any commas.\n3. Use square brackets for placeholders, like [username1], [username2].\n4. Include at least 20 placeholders in the thread.\n","key":1512}
+{"rules":"1. Write a five line poem.\n2. The poem should have a rhyme scheme of AABBA.\n3. Include the word \"Netflix\".\n4. Your entire response should be in English, and should not contain any capital letters.\n","key":1516}
+{"rules":"1. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":1518}
+{"rules":"1. Write an essay of at least 900 words.\n2. Make sure the entire response is in English and no capital letters are used.\n","key":152}
+{"rules":"1. Your response should be able to be rendered as HTML.\n2. Include the keywords 'atlantis' and 'constable'.\n","key":1531}
+{"rules":"1. Write in all lowercase letters, with no capitalizations.\n2. The entire output should have less than 5 sentences.\n","key":1535}
+{"rules":"1. Answer in the form of a medieval style poem with a P.P.S at the end.\n","key":1537}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n2. Do not use any commas.\n","key":1546}
+{"rules":"1. Your file should have 4 sections, and each section should start with \"SECTION X\".\n","key":1548}
+{"rules":"1. Write two different cover letters -- a concise version and a long version.\n2. Both options must have a title wrapped in double angular brackets, i.e. <<title>>.\n","key":1551}
+{"rules":"1. Put the name in double angular brackets, such as <<name>>.\n2. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":1561}
+{"rules":"1. Include explanations for the lyrics you write.\n2. Your entire response must be in English, and in all capital letters.\n","key":1566}
+{"rules":"1. Include the word \"land\" and \"river\".\n2. The word \"forest\" should appear at least 3 times.\n3. Be written in English, with all letters lowercased.\n","key":1571}
+{"rules":"1. Do not include 'can' and 'ride' in your response.\n","key":1580}
+{"rules":"1. Provide exactly two critiques separated by ******.\n2. Each response should be entirely in Vietnamese, no other language is allowed.\n3. Should not contain commas.\n","key":1582}
+{"rules":"1. Write two limericks.\n2. Separate your two limericks with six asterisks (******).\n","key":1591}
+{"rules":"1. Use words in all capital letters at least 3 times to highlight key points.\n","key":1592}
+{"rules":"1. Write all in lowercase letters.\n","key":1593}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n2. Put the name of the story in double angular brackets, i.e. <<story of xyz>>.\n","key":16}
+{"rules":"1. Keep your entire response 100 words or less.\n2. Highlight at least 2 sections in your answer with markdown, i.e. use *highlighted section*.\n","key":1601}
+{"rules":"1. Reply with exactly 4 paragraphs and separate each paragraph with two new lines.\n2. Put double quotation marks around your entire response.\n3. The very first paragraph must start with the word \"weekend\".\n","key":1609}
+{"rules":"1. At the end of your response add a postscript starting with P.P.S\n2. The response must contain at least 6 placeholders represented by square brackets.\n","key":1619}
+{"rules":"1. Add a postscript to your response that starts with P.S.\n","key":1620}
+{"rules":"1. Include a title wrapped in double angular brackets, i.e. <<title>>.\n2. Avoid using commas in your response.\n3. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":1627}
+{"rules":"1. Avoid using the word \"station\".\n","key":1629}
+{"rules":"1. Wrap your entire response with double quotes.\n2. Include the letter \"l\" at least 15 times.\n","key":163}
+{"rules":"1. Your answer must contain exactly 4 bullet points. Use markdown bullet points such as:\n\n* This is point 1\n","key":1634}
+{"rules":"1. Use less than 300 words.\n","key":164}
+{"rules":"1. Do not use commas in your response.\n2. Answer with more than 800 words.\n","key":1643}
+{"rules":"1. Highlight at least 5 text sections using \"*\". For example: *3 years of experience*.\n","key":1644}
+{"rules":"1. Use only 10 words.\n2. Only use capital letters in your entire response.\n","key":1645}
+{"rules":"1. Highlight at least 5 sections in your answer by starting and ending with \"*\", like: *highlighted text section*.\n","key":1646}
+{"rules":"1. Limit the number of words with all capital letters to less than four.\n2. Your response should contain at least ten sentences.\n","key":1653}
+{"rules":"1. Generate two alternative product descriptions.\n2. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":1656}
+{"rules":"1. Include the keywords \"Python\" and \"Java\".\n2. Wrap the response with double quotation marks.\n","key":1658}
+{"rules":"1. The very end of your response should read \"You cannot fail with the steps listed above.\" No other words should follow this phrase.\n","key":1659}
+{"rules":"1. Make sure that it's in English and not a single letter in your entire response is capitalized whatsoever.\n","key":1667}
+{"rules":"1. The proposal should contain 5 or more sections.\n2. Highlight each section name using the this format:\n\n*section name*\n","key":167}
+{"rules":"1. Wrap your entire reply with double quotation marks.\n2. There should be exactly 6 paragraphs separated by the markdown divider: ***\n3. Use words with all capital letters (such as \"RUBRIC\") at least 5 times.\n","key":1670}
+{"rules":"1. Do not use \"heute\". Please use another word.\n","key":1675}
+{"rules":"1. Highlight at least 3 sections with markdown, i.e *highlighted section*.\n","key":168}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":1686}
+{"rules":"1. Include a list of recommended hotels.\n2. Wrap the ENTIRE output in JSON format.\n3. Do not include the following keywords: Moser, Glassworks, Pravcice, Karlovy, Vary\n","key":1691}
+{"rules":"1. At the end of your response, explicitly add a postscript starting with P.P.S\n2. Finish your entire response with this exact phrase: Hope you agree with me.\n","key":1705}
+{"rules":"1. The word disappointed should appear at least 2 times.\n2. At least six section should be highlighted with markdown, i.e *banana peel*.\n","key":1713}
+{"rules":"1. Your entire response must be wrapped in double quotation marks.\n2. You must have five sections.\n3. Mark the beginning of each section with Section X.\n","key":1730}
+{"rules":"1. The word 'replied' must appear at least twice.\n","key":1733}
+{"rules":"1. Answer with only mathematical notation without any commas.\n","key":1738}
+{"rules":"1. Write in only Vietnamese, no other language is allowed.\n2. Refrain from using commas.\n","key":1739}
+{"rules":"1. Separate the essay and the poem with 6 asterisk symbols: ******\n2. Your response should have the following form:\n\n[essay]\n\n******\n\n[poem]\n","key":1746}
+{"rules":"1. At the end of your response, please explicitly add a note starting with \"P.S.\"\n","key":1759}
+{"rules":"1. Give the song a name, and highlight the name by wrapping it with *. For example: *little me in the countryside*.\n","key":1773}
+{"rules":"1. Solve this step by step.\n2. Wrap your entire response (reasoning process and the final answer) with double quotation marks.\n","key":1776}
+{"rules":"1. Write it in all capital letters.\n2. Include the keywords 'DISGUSTING', 'DELICIOUS', 'BAD', and 'GOOD'.\n","key":1779}
+{"rules":"1. Make sure the resume is in English and all lowercase.\n2. The resume should have at least 800 words.\n","key":1781}
+{"rules":"1. The essay should be at least 50 sentences long.\n","key":179}
+{"rules":"1. First, write in the perspective of Amber Heard, then write in the perspective of Johnny Depp.\n2. Separate those two version by 6 asterisk symbols ******.\n3. The entire response should have less than 300 words.\n","key":1793}
+{"rules":"1. Add a postscript starting with P.S. at the end of your response.\n","key":1800}
+{"rules":"1. Give your answer wrapped in double angular brackets, such as <<your answer>>.\n","key":1802}
+{"rules":"1. The fake news article should contain exactly six paragraphs.\n2. The second paragraph must start with the word \"President\".\n3. Separate paragraphs by double line breaks (\"\\n\\n\")\n","key":181}
+{"rules":"1. Reply in English and capitalize all your words.\n2. Your response must be no longer than 30 words.\n","key":1813}
+{"rules":"1. Make sure it's at least 40 sentences long (don't forget to add punctuations).\n2. You must highlight some words or phrases in your response, like *highlighted phrase*.\n","key":1823}
+{"rules":"1. Use bullet points.\n2. Do not contain any commas in your response.\n3. End your response with a postscript indicated by P.P.S\n4. Include the keywords \"lacking\", \"model\", \"performance\", \"quality\", \"architecture\".\n","key":1825}
+{"rules":"1. Respond with at least 20 sentences.\n2. Have more than 4 words be in all capital letters.\n","key":1834}
+{"rules":"1. Contains 20 to 25 sentences.\n2. Do not forget to add punctuations.\n","key":1837}
+{"rules":"1. All letters in your response must be lower case letters.\n2. Put double quotation marks around your entire response.\n","key":1843}
+{"rules":"1. Include exactly 3 paragraphs with these keywords: \"calculate\", \"file\", \"conclusion\".\n2. Separate the paragraphs with ***.\n","key":1845}
+{"rules":"1. Include the name of the company at least five times.\n","key":1857}
+{"rules":"1. There should be exactly 4 paragraphs.\n2. Separate the paragraphs with ***.\n","key":1858}
+{"rules":"1. Use at least 60 sentences, but less than 600 words.\n","key":1879}
+{"rules":"1. 200 words or less.\n2. The letter c must appear at least 60 times in your response.\n","key":1880}
+{"rules":"1. Do not use the letter e whatsoever in your entire response.\n2. Separate your song into 3 parts, where each part is separated with ***.\n","key":1883}
+{"rules":"1. Contains at least 3 italic text phrases in markdown syntax, i.e *italic text*.\n","key":1886}
+{"rules":"1. Finish the song with:\n\n\nPeace!\n\n\nNo additional words should follow \"Peace!\"\n","key":1893}
+{"rules":"1. Italicize at least 10 text parts with markdown (using * to italicize, like *italic text*).\n2. Do not use any commas in your response.\n","key":1897}
+{"rules":"1. Your entire reply should contain 600 to 700 words.\n","key":19}
+{"rules":"1. Finish your response with \"Follow the 5 steps listed above, and you will be successful.\" No other words should follow this.\n","key":1902}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":1906}
+{"rules":"1. Your response should contain at least 30 sentences and exactly 2 bullet points.\n2. It must contain at least 8 placeholders represented by square brackets, such as [address].\n3. Use the bullet points like:\n\n* This is a bullet point\n","key":1908}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":1922}
+{"rules":"1. Make sure it contains at least 10 placeholders represented by square brackets, such as [name].\n","key":1927}
+{"rules":"1. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.\n2. Should not contain any commas.\n3. The word flesh should appear less than 3 times.\n","key":1928}
+{"rules":"1. Your answer must be in the form of exactly 4 bullet points with the format below:\n\n* This is bullet point 1\n\n* This is bullet point 2\n","key":1934}
+{"rules":"1. Your answer must not include keywords ['bad', 'underperform'].\n2. Must contain exactly 6 bullet points in the following form:\n\n* Bullet point 1\n\n* Bullet point 2\n\n* Bullet point 3\n\n* Bullet point 4\n\n* Bullet point 5\n\n* Bullet point 6\n","key":1936}
+{"rules":"1. End your response with \"Which one you choose?\".\n","key":1939}
+{"rules":"1. Just the first 5 steps.\n2. Separate them with \"***\", such as:\n\nStep 1: ......\n\n***\n\nStep 2: ......\n\n***\n\n...\n\n3. End your whole response with the phrase \"Let me know how it works. I can give you next steps when you finish all steps above.\"\n","key":1943}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n2. Should not contain any commas.\n","key":1944}
+{"rules":"1. Your answer should have exactly 7 paragraphs.\n2. The last paragraph must start with the word \"Summary\".\n3. Each paragraph should be separated by two new lines.\n","key":1954}
+{"rules":"1. Write a 100-word advertisement.\n2. Don't contain the letter \"p\" in your reply.\n","key":1964}
+{"rules":"1. Your response must be in English and only use lowercase letters.\n2. Your response should contain less than 20 sentences.\n","key":1967}
+{"rules":"1. At least 300 words.\n2. Contain exactly 3 bullet points (that are marked by an asterisk, *).\n3. A postscript starting with P.S. at the end.\n","key":1980}
+{"rules":"1. Add stress words which are capitalized.\n2. Limit those stress words for less than 20 times.\n","key":1996}
+{"rules":"1. Generate a summary in all capital letters.\n","key":1999}
+{"rules":"1. Include some conversation in the story.\n2. Avoid using the letter i more than twice.\n","key":201}
+{"rules":"1. Your entire response must be wrapped in double quotation marks.\n","key":2010}
+{"rules":"1. Put your whole response in double quotes.\n","key":2015}
+{"rules":"1. Answer in lowercase letters only, throughout your entire answer.\n","key":202}
+{"rules":"1. The poem should have four sections, with each section marked with SECTION X.\n","key":2023}
+{"rules":"1. Do not say 'yes' or 'no' throughout your entire response.\n","key":2028}
+{"rules":"1. Do not include \"enzymes\" and \"antibodies\" in your response.\n","key":2034}
+{"rules":"1. At least 5 sentences.\n2. Use Markdown to italicize at least 2 sections in your answer, i.e. *italic text*.\n3. Wrap your answer in double quotes.\n","key":2035}
+{"rules":"1. Your entire response should contain at least 40 sentences.\n2. Do not contain the word \"rich\" and \"money\".\n","key":2041}
+{"rules":"1. Make sentences short.\n2. Your response should not contain any comma.\n3. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":2063}
+{"rules":"1. Answer in 100 to 120 words.\n","key":2069}
+{"rules":"1. Add a postscript that starts with P.S. at the end.\n","key":2070}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":2071}
+{"rules":"1. Includes exactly one bullet point.\n2. Make sure to include a few bullet points indicated by *, such as:\n\n* Bullet point\n","key":2078}
+{"rules":"1. Do not use the word die in your response.\n2. Mention the word \"dose\" for at least 5 times.\n","key":2084}
+{"rules":"1. At least 400 words.\n","key":209}
+{"rules":"1. Write a 200 word essay.\n2. The title should be wrapped in double angular brackets, i.e. <<title>>.\n","key":2097}
+{"rules":"1. Use only lowercase letters.\n2. Your answer must contain exactly 3 bullet points using the markdown bullet points format, such as:\n\n* Bullet point 1\n","key":2100}
+{"rules":"1. The letter l must appear at least 6 times.\n","key":2107}
+{"rules":"1. The rap song should have exactly 3 paragraphs each separated by ***.\n2. Exactly 3 bullet points in markdown format.\n","key":2118}
+{"rules":"1. Include at least one placeholder represented by square brackets.\n","key":2136}
+{"rules":"1. At least three sentences.\n2. Include the keywords \"rate\" and \"rte\".\n","key":2139}
+{"rules":"1. The word predatory must appear at least twice in the proposal.\n","key":2142}
+{"rules":"1. Expand it into at least 5 sentences.\n2. Do not use the words reschedule or free.\n","key":2143}
+{"rules":"1. Your response should contain less than 20 sentences.\n2. Must include at least 3 placeholders represented by square brackets, such as [address].\n","key":2162}
+{"rules":"1. The response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number].\n","key":2164}
+{"rules":"1. Include the letter y at least 5 times.\n2. Include the keywords talented and tianjin.\n","key":2169}
+{"rules":"1. Make it in a format of a list with at least one placeholder, such as [address].\n2. The response must be in English and all lowercase letters.\n","key":218}
+{"rules":"1. The words with all capital letters should appear at least 10 times.\n2. Put the response into at least 5 sections, separated using 3 asterisks ***.\n","key":2180}
+{"rules":"1. Wrap your response with double quotation marks.\n","key":219}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":2192}
+{"rules":"1. Your list should contain exactly 3 bullet points in the markdown format such as:\n\n* Bullet point 1\n\n* Bullet point 2\n","key":2195}
+{"rules":"1. Do not use words \"ours\" or \"have\".\n","key":2207}
+{"rules":"1. Put double quotes around your entire response.\n","key":2209}
+{"rules":"1. Write a two paragraph story.\n2. The first paragraph starts with the word \"realising\".\n3. Each paragraph is separated by two new lines.\n","key":2215}
+{"rules":"1. Write a detailed proposal in list format.\n2. Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.\n3. You must refrain from using any commas.\n4. At the end of your response, please explicitly add a postscript starting with P.P.S\n","key":2216}
+{"rules":"1. Please respond only in Korean.\n","key":2225}
+{"rules":"1. The sales pitch should be 500 words long.\n2. Focus on the benefits without mentioning the price.\n3. Must contain a title, wrapped in double angular brackets, i.e. <<title>>.\n","key":2229}
+{"rules":"1. Don't use any commas.\n2. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.\n","key":2230}
+{"rules":"1. Put your entire response in double quotation marks.\n","key":2239}
+{"rules":"1. Please include the keys (1) Name (2) Location and (3) Year.\n2. Use less than 150 words.\n","key":2243}
+{"rules":"1. Please do not use any commas in your response.\n","key":2245}
+{"rules":"1. Answer with at least 400 words.\n2. The word climatic should appear at least 2 times.\n3. The response must contain at least 3 placeholders represented by square brackets, such as [address].\n","key":2246}
+{"rules":"1. Write in English and in all capital letters.\n","key":2247}
+{"rules":"1. Write exactly 4 paragraphs.\n2. Use 2 new lines to separate paragraphs.\n3. Start the 4th paragraph with the word \"elm\".\n","key":2250}
+{"rules":"1. Highlight at least 3 sections with markdown, i.e. *highlighted section*.\n","key":2253}
+{"rules":"1. The letter q should show up at least 4 times.\n","key":2265}
+{"rules":"1. Less than 7 sentences.\n","key":2266}
+{"rules":"1. Please end your response with \"Is there anything else I can help with?\" and no other words should follow this statement.\n","key":2268}
+{"rules":"1. Choose from the following: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.') -- please include the exact phrase in your response.\n","key":227}
+{"rules":"1. Use weird language when explaining using mathematical notation.\n2. Add a postscript starting with P.P.S at the end.\n","key":2273}
+{"rules":"1. Create a 500-word startup pitch.\n2. Words with all capital letters should appear at least 16 times in the response.\n3. There should be no commas.\n4. The word batted should appear less than 2 times.\n","key":2275}
+{"rules":"1. Your answer must be at least 300 words.\n2. Must contain at least 3 placeholders represented by square brackets, such as [address].\n3. Exactly 2 bullet points using the markdown bullet points such as:\n\n* Bullet point 1\n\n* Bullet point 2\n","key":2284}
+{"rules":"1. Make sure to use the word \"clearly\" at least 2 times.\n","key":2292}
+{"rules":"1. Write in entirely Swahili, no other language is allowed.\n","key":2299}
+{"rules":"1. Wrap your entire response with double quotation marks.\n2. Your response should contain 17 or more sentences.\n","key":2303}
+{"rules":"1. The response must contain at least 1 placeholders represented by square brackets, such as [address].\n","key":2304}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n2. Your answer must contain a title, wrapped in double angular brackets.\n","key":2305}
+{"rules":"1. Include the words thursday and amalgamation.\n2. Use Swahili language only, no other language is allowed.\n","key":2309}
+{"rules":"1. Do not use commas in your response.\n","key":2311}
+{"rules":"1. Name exactly 3 names using markdown bullet points such as:\n\n* Bullet point 1\n","key":2314}
+{"rules":"1. At least 200 words.\n","key":2323}
+{"rules":"1. Without using any commas.\n","key":2324}
+{"rules":"1. The words startup and capsule cannot be in the response.\n","key":2328}
+{"rules":"1. In your entire response make sure you do not use any commas.\n2. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":2337}
+{"rules":"1. Your answer must be in all capital letters and in English.\n","key":2341}
+{"rules":"1. The letter i must appear less than 6 times.\n","key":2350}
+{"rules":"1. Answer in a Shakespearean style.\n2. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":2355}
+{"rules":"1. This itinerary should have exactly 4 paragraphs.\n2. Each paragraph should be separated by the markdown divider: ***.\n","key":2357}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":2359}
+{"rules":"1. Please finish your answer with a postscript starting with P.P.S\n","key":2362}
+{"rules":"1. Use markdown to highlight at least two sections, i.e. *highlighted section*.\n2. Your entire response should be in English and in all lowercase letters.\n","key":2372}
+{"rules":"1. In your response, do not use any commas.\n","key":2374}
+{"rules":"1. Your answer must contain exactly 4 bullet points in markdown format.\n2. Cannot contain commas.\n","key":2380}
+{"rules":"1. Highlight at least 3 sections in your answer in markdown format.\n","key":2381}
+{"rules":"1. Give me exactly two different responses.\n2. Responses and only responses should be separated by 6 asterisk symbols: ******.\n","key":2383}
+{"rules":"1. Exactly 3 paragraphs each separated by three asterisk symbols (***).\n2. The word humming must be used at least once.\n","key":2386}
+{"rules":"1. Your response should be at least 300 words and in all lowercase letters.\n","key":2391}
+{"rules":"1. Use the word founding less than twice.\n2. Don't add anything before and after the JSON code. Your entire output should just contain a JSON code block.\n","key":2392}
+{"rules":"1. Write in JSON format.\n2. Do not include keywords 'flea' and 'JSON' in the response.\n","key":2395}
+{"rules":"1. Add a postscript at the end starting with P.P.S\n","key":2396}
+{"rules":"1. The very end of your entire response should read exactly like: your love, and thanks.\n","key":2398}
+{"rules":"1. Write in list format.\n2. Your entire response should be in English and in all capital letters.\n","key":24}
+{"rules":"1. Make sure it's entirely in Russian, no other language is allowed.\n","key":240}
+{"rules":"1. Wrap your entire response in JSON format.\n","key":2404}
+{"rules":"1. Your itinerary should be at least 164 words.\n2. Should include the letter c at least five times.\n3. Your entire response should be in English, and in all capital letters.\n","key":2416}
+{"rules":"1. Answer in a different language.\n2. Use bullet points.\n3. Give alternative answers.\n4. Refrain from using commas in your response.\n","key":2417}
+{"rules":"1. Your entire response should be in English, and in all capital letters.\n2. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.\n","key":2422}
+{"rules":"1. Please don't include the keywords \"died\" or \"drowned\".\n","key":2432}
+{"rules":"1. Give two different responses.\n2. Separated by 6 asterisk symbols ******.\n3. Without using any commas.\n","key":2436}
+{"rules":"1. Rewrite to exactly 3 paragraphs, separated by two new lines.\n2. Without using any commas.\n3. Paragraph 1 must start with word punched.\n4. The response must contain at least 2 placeholders represented by square brackets, such as [address].\n","key":2439}
+{"rules":"1. Wrap your entire response with double quotation marks.\n","key":2441}
+{"rules":"1. The letter w should appear less than 2 times in your response.\n","key":2447}
+{"rules":"1. Don't use any commas.\n2. Make sure the letter q appears at least once.\n","key":2449}
+{"rules":"1. The summary must contain exactly 4 bullet points such as:\n\n* Bullet point 1\n\n* Bullet point 2\n","key":2457}
+{"rules":"1. Use only Hindi in your response, no other language is allowed.\n","key":2464}
+{"rules":"1. Include the word \"time\".\n2. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":2465}
+{"rules":"1. Write in exactly 4 paragraphs.\n2. Separate paragraphs with the markdown divider: ***.\n","key":2467}
+{"rules":"1. Give exactly two different responses separated by 6 asterisk symbols ******.\n","key":247}
+{"rules":"1. Make sure not to include negative words such as 'sad', 'crazy', 'stress', etc.\n2. Include at least 15 placeholders represented by square brackets, such as [address].\n","key":2471}
+{"rules":"1. Write in conversational bullet points.\n2. End your response with this exact phrase: \"Let me know if you have additional questions.\", and no other words should follow this phrase.\n","key":2475}
+{"rules":"1. Rewrite in a style that is unusual.\n2. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":2482}
+{"rules":"1. Rewrite in a serious tone, similar to the president of the united states.\n2. Without an upward bias or inflation alarmism.\n3. Include the keywords \"ink\" and \"memoirs\" in the sentence.\n","key":2485}
+{"rules":"1. Highlight at least one section of your answer with markdown, i.e. *highlighted section*.\n2. Put your entire response inside double quotation marks.\n","key":2497}
+{"rules":"1. Provide two alternatives.\n2. Finish your response with \"Is there anything else I can help with?\". No other words should follow this phrase.\n","key":2505}
+{"rules":"1. Answer with lowercase letters.\n2. Make sure the letter n appears less than 7 times.\n","key":251}
+{"rules":"1. Highlight at least one section of your answer in markdown, i.e *highlighted section*.\n","key":2515}
+{"rules":"1. Include the phrase \"singing is life\".\n2. Be in all lowercase letters. No capital letters are allowed.\n","key":2517}
+{"rules":"1. Use all lowercase letters.\n","key":2531}
+{"rules":"1. Wrap the entire email in double quotation marks.\n","key":2532}
+{"rules":"1. Translate into German and then criticize it.\n2. Avoid the word \"schlau\" throughout your response.\n","key":2534}
+{"rules":"1. Your answer must be exactly 3 paragraphs where paragraphs and only paragraphs are separated by two new lines.\n2. The third paragraph must start with the word bonding.\n3. Include keywords gao and hearts in the response.\n4. At the end of your response, please add a postscript starting with P.P.S\n","key":2549}
+{"rules":"1. Make this sound like it is being said by the president of the United States.\n2. Capitalize every letter.\n","key":2563}
+{"rules":"1. Include the keywords \"finale\" and \"less\" in the post.\n","key":2567}
+{"rules":"1. Your response should be in English, all capital letters.\n2. Contain no commas.\n3. Be fewer than 16 sentences.\n","key":2571}
+{"rules":"1. Give exactly two different responses, separated by 6 asterisk symbols: ******.\n2. Do NOT include keywords 'BC', 'culture', and 'prehistoric' in the response.\n","key":2577}
+{"rules":"1. The word comprised should appear at least 1 times.\n2. Refrain from using any commas.\n","key":2583}
+{"rules":"1. Your response must repeat the user's request word for word without change. Do not add any other words or characters before repeating the request.\n","key":2585}
+{"rules":"1. Your response should contain less than 17 sentences.\n","key":2589}
+{"rules":"1. Write exactly 3 paragraphs each separated with two new lines.\n2. The first paragraph must start with \"send\".\n","key":2590}
+{"rules":"1. Wrap the entire output in JSON format using markdown ticks.\n2. Include keywords 'medalist' and 'theta' in the response.\n","key":2591}
+{"rules":"1. Rewrite entirely in Bulgarian, no other language is allowed.\n2. Give exactly two different responses separated by 6 asterisk marks ******.\n3. Refrain from using commas.\n","key":2596}
+{"rules":"1. Include the keywords \"friends\" and \"hanson\" in the resume.\n2. Make your entire output contain less than 50 words.\n","key":260}
+{"rules":"1. Include these items: Zelda, Hyrule, Link, Ganon.\n2. Use less than 100 words.\n","key":2602}
+{"rules":"1. Wrap your entire response with double quotation marks.\n2. Make sure the letter o appears at least 25 times in your response.\n","key":2605}
+{"rules":"1. In your poem, italicize at least one section in markdown, i.e *this is an italic text*.\n2. Include the word \"singles\" at least twice.\n","key":2616}
+{"rules":"1. Make sure that your entire response has less than 6 sentences.\n","key":2617}
+{"rules":"1. Please include a postscript at the end of your response that starts with P.S.\n","key":2622}
+{"rules":"1. Use <br> to separate lines.\n2. Start with a funny greeting.\n3. Include mathematical notations in the note.\n4. At the end of your response, explicitly add a postscript starting with P.P.S\n","key":2628}
+{"rules":"1. Write with two sections (Section 1 and Section 2).\n2. At least 25 sentences.\n","key":2637}
+{"rules":"1. Do not use words \"revolution\" and \"tax\" throughout your response.\n2. Put your entire answer in JSON format.\n","key":2649}
+{"rules":"1. Write the answer in markdown as a song.\n2. Make sure your song contains the letter j at least once.\n3. Use exactly 3 bullet points in markdown format in the song.\n","key":2653}
+{"rules":"1. The tweet should include the keywords \"engages\" and \"lightly\".\n","key":2662}
+{"rules":"1. Write exactly 2 bullet points in markdown format. Use \"*\" to indicate a bullet point. One example bullet:\n\n* It's not a bug\n","key":2667}
+{"rules":"1. Use less than 10 sentences.\n2. Please make sure that all punctuations are legit.\n","key":2674}
+{"rules":"1. The limerick should end with the phrase \"Yes Mom, I am Dave.\"\n2. Do not say anything after the limerick.\n","key":2677}
+{"rules":"1. Give exactly two different responses, separating them with 6 asterisk symbols (***).\n2. Your answer must contain a title, wrapped in double angular brackets, such as <<my title>>.\n3. Include the keywords \"adoption\" and \"carriage\" somewhere in your response.\n","key":2683}
+{"rules":"1. Your response should be completely in Kannada, no other language is allowed.\n","key":2685}
+{"rules":"1. Wrap the entire response in double quotation marks.\n","key":2691}
+{"rules":"1. Write in the form of a question.\n2. Give exactly two different responses, separated by 6 asterisk symbols (***).\n3. Include a title wrapped in double angular brackets, i.e. <<title>>.\n4. Do not use commas.\n","key":2704}
+{"rules":"1. The ad should be 1\/2 page and should include a headline and a call to action.\n2. Please do not use any commas in your response.\n3. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":2713}
+{"rules":"1. Make sure to use the word \"the\" once or less.\n","key":2716}
+{"rules":"1. Write entirely in the Portuguese language, no other language is allowed.\n2. Wrap your entire response with double quotation marks.\n","key":2724}
+{"rules":"1. Make sure it is in English and that all of the letters are lowercase.\n","key":2728}
+{"rules":"1. Write in all capital letters and in English.\n2. End the rant with the phrase \"What would happen to human next?\" and no other words should follow this phrase.\n","key":2736}
+{"rules":"1. Include the words \"limerick\" and \"funny\".\n2. Do not use any commas.\n3. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":2739}
+{"rules":"1. Make sure to write at least 20 sentences.\n","key":2749}
+{"rules":"1. At least 400 words.\n2. Wrap your entire response with double quotation marks.\n","key":2751}
+{"rules":"1. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.\n","key":2752}
+{"rules":"1. Use markdown to highlight at least 3 sections in your answer.\n","key":2759}
+{"rules":"1. The response should be in English, all lowercase.\n2. Include at least one placeholder such as [placeholder].\n","key":2765}
+{"rules":"1. The template should include the letter q at least 5 times.\n","key":2768}
+{"rules":"1. Make sure the letter q appears less than 5 times in your response.\n","key":2779}
+{"rules":"1. Please respond in less than 6 sentences.\n","key":2780}
+{"rules":"1. Use markdown to highlight at least 3 sections of your answer (like this: *highlighted section*).\n2. Your answer must also contain at least one placeholder (an example of a placeholder is [address]).\n","key":2785}
+{"rules":"1. Using at least 4 sentences.\n2. Make sure the letter n appears at least 3 times.\n","key":2787}
+{"rules":"1. Include a title wrapped in double angular brackets, i.e. <<title>>.\n2. Your entire response should be in lowercase english.\n3. Contain the letter g at least 8 times.\n","key":279}
+{"rules":"1. Use markdown to highlight at least one section of your answer, i.e. *highlighted section*.\n","key":2790}
+{"rules":"1. Without using commas.\n","key":2798}
+{"rules":"1. Rewrite as a list of exactly 4 bullet points.\n2. The bullet points should be in markdown such as:\n\n* Bullet point 1\n\n* Bullet point 2\n","key":2801}
+{"rules":"1. Use only lowercase letters.\n2. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.\n","key":2807}
+{"rules":"1. Wrap your entire response in double quotation marks.\n","key":281}
+{"rules":"1. Doesn't include the keywords \"Yo\", \"check\", and \"peace\".\n","key":2811}
+{"rules":"1. It should be in English and have no capital letters.\n","key":2817}
+{"rules":"1. Includes at least 15 words in all capital letters.\n","key":2820}
+{"rules":"1. Do not use any commas in your response.\n","key":2825}
+{"rules":"1. Do not include the word 'parody' throughout your response.\n","key":2828}
+{"rules":"1. Wrap your entire response in double quotes.\n","key":2829}
+{"rules":"1. Your answer must include exactly one bullet point in markdown format.\n","key":2832}
+{"rules":"1. Write a 200+ word poem.\n2. Use markdown to highlight\/bold at least one section of the poem. Example: *highlighted text*\n","key":2844}
+{"rules":"1. Use notations to express it.\n2. Use at least 2 words with all capital letters.\n","key":2849}
+{"rules":"1. The poem should have a title in double angular brackets, i.e. <<title>>.\n2. Contains at least 3 words in all capital letters.\n","key":2853}
+{"rules":"1. Wrap the entire output in JSON format.\n","key":2857}
+{"rules":"1. Summarize in XML format.\n2. Make sure the summary contains less than 4 sentences.\n","key":2859}
+{"rules":"1. Provide less than a total of 10 sentences in your entire answer.\n2. End with: That is all you need!\n","key":286}
+{"rules":"1. Words with all capital letters should appear at least 3 times.\n","key":2870}
+{"rules":"1. Include the word fiesta at least twice.\n","key":2871}
+{"rules":"1. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":288}
+{"rules":"1. Use mathematical notations in your answer.\n2. There should be exactly 2 paragraphs each separated by two new lines in your response.\n3. Paragraph 1 must start with the word booster.\n","key":2880}
+{"rules":"1. Your answer must contain a title, wrapped in double angular brackets, such as <<title of the brief>>.\n2. Make sure the letter m appears at least 5 times.\n","key":2887}
+{"rules":"1. Wrap your entire response with double quotation marks.\n2. Include two sections: \"SECTION 1\" and \"SECTION 2\".\n","key":2889}
+{"rules":"1. Write a 500 word story in a poem style.\n2. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":2904}
+{"rules":"1. Use * to highlight at least 2 sections in your text. For example: *this is a highlighted text section*.\n","key":2905}
+{"rules":"1. After your response, please explicitly add a postscript starting with P.P.S\n2. Your entire response should be in English and in all capital letters.\n","key":2908}
+{"rules":"1. Highlight at least 6 sections in your answer with markdown, i.e. *highlighted section*.\n2. Please write at least 300 words.\n","key":2909}
+{"rules":"1. Break the dialogue into two scenes, separated by 6 asterisk symbols: ******.\n2. The letter t must appear at least 30 times in the dialogue you write.\n","key":2912}
+{"rules":"1. Give your final summary, following 6 asterisk symbols (**).\n","key":2918}
+{"rules":"1. Contains at least 20 sentences.\n","key":292}
+{"rules":"1. Give the answer in exactly two paragraphs, separated with the markdown divider: ***\n","key":2921}
+{"rules":"1. Write in 3 sections.\n2. Mark the beginning of each section with SECTION X.\n","key":2925}
+{"rules":"1. At the end of your response, add a postscript starting with P.S.\n","key":2929}
+{"rules":"1. The poem should have exactly 6 stanzas.\n2. Separate the stanzas using 3 asterisk markers: ***\n","key":2941}
+{"rules":"1. Use the word \"might\" at least 6 times.\n2. Use all lowercase letters.\n3. Break the conversation down to 3 parts, separated by ***, such as:\n\n[conversation part 1]\n\n***\n\n[conversation part 2]\n\n***\n\n[conversation part 3]\n","key":2943}
+{"rules":"1. The letter should be in Markdown.\n2. Have a title wrapped in double angular brackets, i.e. <<title>>.\n","key":295}
+{"rules":"1. Do not mention nursery and storytelling in your entire response.\n","key":2957}
+{"rules":"1. Write in all lowercase letters and no capital letters.\n2. The word hughes should appear less than 2 times.\n3. Your response should be at least 100 words.\n","key":296}
+{"rules":"1. Part of your answer should be in a table format.\n2. Must contain a title, wrapped in double angular brackets, such as <<sloop on sale>>.\n","key":2969}
+{"rules":"1. Use the exact format below:\n\nadvice 1 ....\n\n***\n\nadvice 2 ....\n\n***\n\nadvice 3 ....\n","key":2977}
+{"rules":"1. Explain it in the style of Alex Jones.\n2. Wrap your entire response inside double quotation marks.\n","key":2985}
+{"rules":"1. Use the word para at least once.\n","key":2997}
+{"rules":"1. Please answer in lower case letters.\n2. The answer should be 600+ words long.\n3. Be wrapped with double quotation marks.\n","key":30}
+{"rules":"1. End with the exact phrase Is there anything else I can help with?\n","key":3001}
+{"rules":"1. Do not include the keywords \"slow\", \"like\" and \"kid\".\n","key":301}
+{"rules":"1. Include the word \"desert\" in the answer.\n2. Make sure the answer contains exactly 3 bullet points in markdown format.\n","key":3025}
+{"rules":"1. Includes at least one placeholder represented by square brackets.\n2. The response must be in English and all lowercase letters.\n","key":3035}
+{"rules":"1. Your pitch should be less than 7 sentences.\n2. Contain exactly 1 bullet point in markdown.\n","key":3041}
+{"rules":"1. End your response with the exact question: Is there anything else I can help with?\n","key":3048}
+{"rules":"1. With a title wrapped in double angular brackets, i.e. <<title>>.\n","key":3057}
+{"rules":"1. Make sure your ENTIRE response is in only the Marathi language, no other languages allowed.\n2. Do not write long equations.\n3. Your response must be in the following exact format, and use *** as the section separator:\n\n[Section 1: Description of Cauchy\u2013Schwarz inequality, in Marathi language]\n\n***\n\n[Section 2: Describe how to proof Cauchy\u2013Schwarz inequality, in Marathi language, without equations]\n\n***\n\n[Section 3: Brief summary, in Marathi language]\n","key":3063}
+{"rules":"1. Includes exactly 3 bullet points in markdown format.\n2. In all lowercase letters.\n3. A postscript at the end starting with P.S.\n","key":3069}
+{"rules":"1. Highlight at least 3 sections in your answer in markdown format.\n","key":3071}
+{"rules":"1. Write exactly 4 paragraphs each separated by two new lines.\n2. Start the first paragraph with the word \"firms\".\n","key":3073}
+{"rules":"1. Write in list format.\n2. End your entire response with the phrase \"Is there anything else I can help with?\"\n","key":3079}
+{"rules":"1. Use the style of a President of the United States.\n2. Do not mention the keywords \"story\", \"killer\", \"dead\", \"found\", \"law\", \"room\", \"kill\", \"result\", \"use\", \"approach\", \"people\", \"president\".\n","key":3081}
+{"rules":"1. Don't use any commas in your entire response.\n2. End your response with the EXACT phrase of \"in India.\"\n","key":3084}
+{"rules":"1. Italicize at least 8 text sections in markdown format, for example: *italic text*.\n2. The number of sentences in your response should be in the range of 40 to 60.\n","key":3089}
+{"rules":"1. Includes the word elephant at least 3 times.\n","key":3091}
+{"rules":"1. With exactly 3 bullet points in markdown format, and exactly 4 sections.\n2. Bullet points are indicated by \"* \". For example:\n\n* Bullet 1\n\n* Bullet 2\n\n3. Sections are separated by 3 asterisks: ***. For example:\n\nSection 1\n\n***\n\nSection 2\n\n4. You should use words with all capital letters for at least 2 times.\n","key":3098}
+{"rules":"1. Make sure the word cousins appears more than 2 times.\n","key":3109}
+{"rules":"1. Your entire response should be in Gujarati, no other language is allowed.\n","key":3112}
+{"rules":"1. Write at least 900 words.\n2. Do not include the words 'bark' or 'run' in your answer.\n3. Finish your response with the phrase \"Does this make sense?\"\n","key":3114}
+{"rules":"1. Include at least one placeholder, such as [question].\n","key":3126}
+{"rules":"1. Using only Hindi, no other language is allowed.\n","key":3130}
+{"rules":"1. Your answer must contain a title, wrapped in double angular brackets, such as <<blog post of ...>>.\n2. Add a postscript starting with P.S.\n","key":3131}
+{"rules":"1. Your entire response must be in English and contain only lowercase letters.\n","key":3150}
+{"rules":"1. Include the words trust, brand, customer, law, policy, and unusable.\n","key":3156}
+{"rules":"1. Just list without saying the word steps or step.\n","key":3166}
+{"rules":"1. Write in a crazy coach screaming style.\n2. Use all capital letters to express the craziness.\n3. Not a single word in your entire reply should contain lowercase letters.\n","key":3186}
+{"rules":"1. Use words with all capital letters to make important claims. But words with capital letters should appear less than 4 times.\n2. The word 'future' should appear at most once.\n","key":3188}
+{"rules":"1. Give 3 possible elaborations in only the Telugu language, no other language is allowed.\n2. Make sure your explanations are also in the Telugu language. Basically your entire response should be in Telugu.\n","key":3191}
+{"rules":"1. Write in Italian, no other language is allowed.\n2. Make sure the letter n appears at least four times.\n3. Avoid using commas.\n","key":3195}
+{"rules":"1. End with exactly \"Call me at 631-481-4867\"\n2. No other words should follow that phrase.\n","key":3198}
+{"rules":"1. Don't use any commas in your entire reply.\n","key":32}
+{"rules":"1. End the blog post with \"Naomi thanks you for reading.\" No other words should follow this phrase.\n2. This phrase should be the very end of your entire response.\n","key":3203}
+{"rules":"1. As if you are the president of the United States.\n2. Do not use any commas in your response.\n3. Your response should be in English, and in all capital letters.\n","key":3204}
+{"rules":"1. Please make the response strongly structured.\n2. Wrap your entire output in JSON format.\n","key":321}
+{"rules":"1. Responses should be separated by 6 asterisk symbols (******). In other words, your output should look like:\n\n[Joe Biden's national security advisors is ....]\n\n******\n\n[Donald Trump's national security advisors is ....]\n","key":322}
+{"rules":"1. Answer in all caps.\n2. The response must contain at least 8 placeholders (i.e., [restaurant]).\n","key":3221}
+{"rules":"1. Format your entire output in JSON.\n","key":3223}
+{"rules":"1. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3224}
+{"rules":"1. Outside of Arabic, no other language is allowed throughout your entire response.\n","key":3241}
+{"rules":"1. Write 150+ words.\n2. Highlight at least 3 text sections by italicize them with markdown (i.e. *highlighted section*).\n","key":3243}
+{"rules":"1. Your output must not contain any commas and must have at least 2 placeholders, wrapped in square brackets, such as [author].\n","key":3245}
+{"rules":"1. The title must be wrapped in double angular brackets, i.e. <<title>>.\n2. The poem must contain less than 13 sentences.\n3. The poem must not contain any commas.\n4. The poem must not forget to add other punctuations.\n","key":3256}
+{"rules":"1. Separate your two answers with ******\n","key":3263}
+{"rules":"1. Include the keyword \"brand\" each time, followed by suggested name in double angular brackets, such as <<American Tonic>>.\n2. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3272}
+{"rules":"1. Answer in all capital letters.\n2. Organize your entire response in 5 or 6 sentences.\n","key":3276}
+{"rules":"1. Answer in email format.\n2. Your response must contain at least six placeholders which should be represented by square brackets like [name].\n","key":3280}
+{"rules":"1. Provide exactly two versions and separate them with six asterisk symbols:\n\nCover letter version 1\n\n******\n\nCover letter version 2\n\n2. Refrain from using commas in your response.\n","key":3281}
+{"rules":"1. Separate the two poems like below:\n\nPoem 1\n\n******\n\nPoem 2\n\n2. Your entire output should have at least 300 words.\n","key":3287}
+{"rules":"1. Give 5 Q and As, following the following format:\n\n\"\n\nQ & A # 1\n\n***\n\nQ & A # 2\n\n***\n\nQ & A # 3\n\n***\n\nQ & A # 4\n\n***\n\nQ & A # 5\n\n\"\n\n2. Wrap your entire response with double quotation marks.\n","key":3294}
+{"rules":"1. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n2. Include the keywords: \"climate\", \"energy\", and \"green\".\n3. Make sure your entire response is in Hindi, no other language is allowed.\n","key":3305}
+{"rules":"1. Your song should contain at least 10 words in all capital letters that are adjectives or verbs.\n2. Commas are not allowed in the song.\n","key":331}
+{"rules":"1. Use only Korean in your response.\n2. Provide a title wrapped in double angular brackets, such as <<SRE>>.\n3. Use the keywords 'indicator', 'objective' and 'management'.\n","key":3311}
+{"rules":"1. Do not use the word 'university'.\n2. Your entire response should have exactly 4 paragraphs.\n3. Separate paragraphs with the markdown divider: ***\n","key":3315}
+{"rules":"1. Your entire response (including the repeated request) should have 45 or less words.\n2. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":332}
+{"rules":"1. Do not use commas in your response.\n","key":3323}
+{"rules":"1. Write two versions.\n2. Separate the two versions with 6 asterisk symbols (******).\n3. Each version must have 7 sections.\n4. Mark the beginning of each section with Day X.\n","key":3324}
+{"rules":"1. Make sure the letter e appears at least 50 times.\n2. The word education doesn't appear at all.\n","key":3326}
+{"rules":"1. In the style of Alex Jones.\n2. Include the line \"dammit\".\n3. The word \"fake\" should appear 6 or 7 times in your entire response.\n","key":3327}
+{"rules":"1. Do not give any bullet points, lists, or tables.\n2. Just write the rubric in plain English paragraphs.\n3. Your response to be at least 30 sentences long.\n","key":3329}
+{"rules":"1. Please recommend exactly two movies.\n2. Separate them by 6 asterisk symbols, like below:\n\n[Movie 1]\n\n[Description]\n\n******\n\n[Movie 2]\n\n[Description]\n\n3. Your entire response should be entirely in Tamil, no other language is allowed.\n4. Should not contain any commas.\n","key":3335}
+{"rules":"1. Wrap your entire response with double quotation marks.\n2. The slogan must include exactly 2 bullet points in markdown format, like below:\n\n\"\n\nColor Paper\n\n* Colorful!\n\n* Eye-catching!\n\n\"\n","key":334}
+{"rules":"1. The word robber should appear at least 2 times.\n2. The poem must contain exactly 2 bullet point in markdown format, using the exact format below:\n\n* Point 1\n\n* Pont 2\n\n3. Do not include keywords ['kill', 'slaughter', 'occupy', 'invasion'] in the response.\n","key":3345}
+{"rules":"1. Please only write short sentences.\n2. Don't use any commas in your entire response.\n3. Include at least five placeholder represented by square brackets, such as [website].\n","key":3350}
+{"rules":"1. Expand it into exactly 2 paragraphs.\n2. Separate paragraphs with the markdown divider: ***.\n3. Italicize at least 3 sections by starting and ending with single *, i.e. *italic text*.\n","key":3351}
+{"rules":"1. In the form of a QA with a weird style.\n2. Your response should contain less than 8 sentences.\n3. Do not include keywords 'mileage' or 'fuel' in your response.\n","key":3362}
+{"rules":"1. Write two advertisements.\n2. One advertisement should be targeted to teenagers and the other should be targeted to professionals.\n3. Mark the beginning of each advertisement with Audience 1 and Audience 2, respectively.\n4. Double quotes should be placed around your entire response.\n","key":3367}
+{"rules":"1. The word \"right\" should appear less than 2 times in the response.\n2. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3369}
+{"rules":"1. Also include the answer.\n2. Your response must be at least 400 words.\n3. Have a title wrapped in double angular brackets, like <<riddle>>.\n","key":337}
+{"rules":"1. Explain your answer in a way that makes it easy for kids to understand.\n2. Include the word \"farmer\".\n3. Exclude the words \"economy\", \"demand\" and \"supply\".\n4. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3371}
+{"rules":"1. Has the answer \"needle\".\n2. Include keywords 'afternoon' and 'distressed' in the response.\n3. Don't use any commas in your answer.\n","key":3376}
+{"rules":"1. Use the keyword 'people' and 'skills'.\n2. Use only lowercase letters.\n","key":3380}
+{"rules":"1. Avoid the keywords: 'divide', 'answer'.\n2. Include the keyword 'remainder'.\n","key":3386}
+{"rules":"1. Please include one italic text section in markdown, i.e *italic text*.\n2. Make your entire response less than 30 words.\n","key":340}
+{"rules":"1. Give a zany, bullet point TLDR.\n2. Make it zany, but do not include the keywords 'icefrog', 'blizzard', 'lawsuit' in the response.\n","key":3401}
+{"rules":"1. Write a 100 word riddle.\n2. Include a few words in all capital letters.\n3. But the number of words in all capital letters should be less than 5.\n","key":3407}
+{"rules":"1. Please wrap your entire response with double quotation marks.\n2. Highlight at least three sections in your answer in markdown format using *highlighted text*. Such as: *Funny Fighting*.\n","key":3409}
+{"rules":"1. Include some words in all capital letters.\n2. In particular, there should be 5 to 10 such capitalized words.\n","key":3414}
+{"rules":"1. With less than 200 words.\n2. Make sure the word unfortunately appears 3 to 5 times in the ad.\n","key":3415}
+{"rules":"1. Your entire response should be in English and in all capital letters.\n","key":3424}
+{"rules":"1. Your entire response must contain at least 1200 words.\n","key":3425}
+{"rules":"1. In a style that is appropriate for a president of the united states.\n2. The sentence should contain the letter q at least 6 times.\n","key":3428}
+{"rules":"1. The story should be in at least 4 sections with each section starting with Section X (where X is 1, 2, 3, 4).\n2. The entire response should have at least 100 sentences.\n","key":3429}
+{"rules":"1. 300+ word startup pitch.\n","key":343}
+{"rules":"1. Without using any capital letters --- your ENTIRE response must be in lowercases.\n2. There should be exactly 3 paragraphs with the only paragraph separation being two new lines.\n3. Start Paragraph 2 with the word Jasper.\n","key":3434}
+{"rules":"1. Lists 25 limericks about people named \"Bill\".\n2. The page should include keywords 'economist', 'bill', and 'jurgen'.\n","key":3439}
+{"rules":"1. The entire reply must be less than 20 words.\n2. Contain a title in double angular brackets, i.e. <<title>>.\n","key":3442}
+{"rules":"1. Without saying the word computer or science.\n2. Your entire response should not contain the word computer and science.\n","key":3445}
+{"rules":"1. Italicize at least 5 keywords in your response.\n2. To indicate a italic word, wrap it with asterisk, like *italic*.\n","key":3453}
+{"rules":"1. At least 5 words in the output should be in all caps.\n","key":3455}
+{"rules":"1. Generate a list of 100 random names.\n2. Make sure that no name is repeated and every name is unique.\n3. All letters in your entire response should be capitalized.\n4. Italicize 5 of your favorite names. For example:\n\n1. *FAVORITE NAME 1*\n\n2. *FAVORITE NAME 2*\n\n3. ...\n","key":3456}
+{"rules":"1. Making sure to use the letter \"a\" at most once.\n","key":3478}
+{"rules":"1. Make sure to not include the words 'name', 'song', 'person', 'man', 'woman' throughout your entire output.\n2. Also avoid using commas in your entire response.\n","key":3479}
+{"rules":"1. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3484}
+{"rules":"1. Have at least 3 italic text sections, such as: *italic text 1*, *italic text 2*, etc.\n2. Make your reply short -- the whole reply should contain less than 40 words.\n","key":349}
+{"rules":"1. Starts with a German translation of \"You're making a mistake not to buy our cheese products, and I'm going to show you why.\"\n2. Please make your response in only German, no other language is allowed.\n3. Include at least 7 placeholders with brackets like [subject].\n","key":3494}
+{"rules":"1. Please answer in Finnish, no other language is allowed throughout your answer.\n2. Make sure your response contains a title wrapped in double angular brackets, i.e. <<title>>.\n","key":3502}
+{"rules":"1. In the style of a 19th century novelist.\n2. Do not use any commas.\n3. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3505}
+{"rules":"1. Please wrap the entire output in JSON format. You can use markdown ticks like\n\n```JSON\n\n[json content]\n\n```\n\n2. Please do not include the words \"proposal\" or \"project\" in the response.\n","key":3506}
+{"rules":"1. In your response, make sure to include at least 20 words or phrases in all capital letters.\n","key":3513}
+{"rules":"1. Wrapped in JSON format.\n2. Please make sure that your response only contains a JSON block.\n3. Please also make sure to include keywords 'compensated' and 'immigrants' in the response.\n","key":3518}
+{"rules":"1. Write a tweet storm with a weird tone.\n2. Your response must be in English, with no capital letters, and in 20 to 30 sentences.\n","key":3534}
+{"rules":"1. With a positive tone that is appealing to teenagers.\n2. Put your entire response in double quotation marks.\n","key":3536}
+{"rules":"1. Write a 600+ word social media post.\n2. Make sure to include the word \"bombs\" at least once.\n","key":3538}
+{"rules":"1. Do not use any commas in your response.\n","key":3540}
+{"rules":"1. Use the asterisk symbol, *, to highlight some words or phrases twice. Example: *This is a highlighted phrase*.\n","key":3549}
+{"rules":"1. Your list should be in the format of 10 bullet points, following the format below:\n\n* Bullet 1\n\n* Bullet 2\n\n* ...\n","key":3557}
+{"rules":"1. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3563}
+{"rules":"1. Please generate an answer with two parts.\n2. The two parts should be separated by 3 asterisks '***'.\n3. Also, reply without mentioning the word \"jock\" throughout.\n","key":3565}
+{"rules":"1. Make the review a conversation between two people.\n2. The response should be a conversation in Urdu only, no other language is allowed throughout your entire response.\n","key":3567}
+{"rules":"1. Highlight at least 2 text sections of your response by wrapping each of them with asterisks, like *I am highlighted*.\n2. Your response should be at least 350 words.\n","key":3569}
+{"rules":"1. Your response must contain 3 sections, mark the beginning of each section with SECTION X.\n","key":357}
+{"rules":"1. The response should be in English, and in all capital letters.\n","key":3572}
+{"rules":"1. Do not include the keywords beauty and pretty.\n","key":3595}
+{"rules":"1. Include a title in double angular brackets, i.e. <<title>>.\n","key":3606}
+{"rules":"1. The cover letter must use professional language, but also be interesting or weird.\n2. The letter j should appear at least 20 times.\n3. Your entire response should be in English, and lowercase letters. No capital letters are allowed.\n","key":3608}
+{"rules":"1. That doesn't use commas.\n","key":3615}
+{"rules":"1. Come up with 3 names.\n2. Make sure your names are in English and all capital letters.\n","key":3617}
+{"rules":"1. The document must contain at least three placeholders, such as [price].\n2. You must not use commas in your response.\n","key":3619}
+{"rules":"1. Wrap your entire response with double quotation marks.\n2. Make sure word in your response is in the Thai language, no other language is allowed.\n","key":3623}
+{"rules":"1. In the style of POTUS.\n2. There should be exactly 4 paragraphs.\n3. Paragraphs and only paragraphs should be separated by two new lines (like \"\\n\\n\").\n4. Paragraph 2 must start with the word \"it\".\n","key":3624}
+{"rules":"1. Please continue writing this text in a formal tone, using notations.\n2. Highlight some key parts in your response with \"*\", like *highlighted text*.\n","key":3629}
+{"rules":"1. Do not use commas in your response.\n","key":3631}
+{"rules":"1. For professionals in the field of psychology.\n2. Without the use of commas.\n3. Make sure to include the phrase \"well worth watching\".\n4. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3633}
+{"rules":"1. Italicize at least 2 sections in your answer with markdown, i.e. *italic text*.\n","key":3644}
+{"rules":"1. Using only the Nepali language throughout your entire response.\n","key":3653}
+{"rules":"1. Write in Hindi.\n2. Your entire response should be written in Hindi.\n3. You cannot use any commas in your entire response.\n","key":3669}
+{"rules":"1. Answer with exactly one sentence.\n2. Put double quotation marks around your entire one-sentence response.\n","key":3672}
+{"rules":"1. Make sure that the word knot appears at least 2 times in the essay.\n2. Include two italic text sections. Like: *this is italic text*.\n","key":3680}
+{"rules":"1. Your response should be in German language, and no other language is allowed.\n","key":3682}
+{"rules":"1. Make sure to include a title wrapped in double angular brackets, i.e. <<title>>.\n","key":3690}
+{"rules":"1. From the perspective of a 16 year old girl.\n2. Your response should contain less than 10 sentences and no commas.\n","key":3691}
+{"rules":"1. The title of the pitch deck should be wrapped in double angular brackets, i.e. <<title>>.\n","key":3697}
+{"rules":"1. Make sure that words in your entire response are in all lowercase letters.\n","key":3703}
+{"rules":"1. Wrap your entire response with double quotation marks.\n2. Do not include the words perfume, fresh, or good in the advertisement.\n","key":3709}
+{"rules":"1. That describes the word \"key\" but doesn't use the word \"key\".\n2. Wrap all words into one JSON block.\n3. The word \"key\" should not appear in your entire reply.\n","key":371}
+{"rules":"1. Your answer must contain a title, wrapped in double angular brackets, such as <<title>>.\n2. You need to highlight at least 2 sections with markdown, i.e. *highlighted section*.\n3. At the end of your response, please explicitly add a postscript starting with P.P.S.\n","key":3710}
+{"rules":"1. Make sure to include a title that is wrapped in double angular brackets, i.e. <<resume of xyz>>.\n2. Refrain from using any commas in your response.\n3. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":3718}
+{"rules":"1. Put the title in double angular brackets, i.e. <<title of my song>>.\n","key":3719}
+{"rules":"1. Write a tweet that is angry.\n2. Italicize at least 2 sections in your answer with markdown, i.e. *italic text section*.\n3. Do not use commas in your response.\n4. Finish your response with this exact phrase: So what is next?\n","key":3724}
+{"rules":"1. Can you write them as a song and use music notation in your response.\n2. Make sure to include the keywords 'festival' and 'river'.\n","key":3732}
+{"rules":"1. Your response should be less than 3 sentences (just 1 sentence or 2 sentences).\n","key":3739}
+{"rules":"1. In a more formal way.\n2. Imagine you are the president of the United States.\n3. Avoid using the word \"youngins\" and \"damn\" throughout your entire response.\n4. Your response must repeat the user request word for word without change. Do not repeat the line or lines that say to repeat the request.\n","key":374}
+{"rules":"1. Contains at least 3 placeholders represented by square brackets such as [date].\n","key":3743}
+{"rules":"1. The response must be entirely in the Bengali language, no other language is allowed.\n2. Have at least one placeholder such as [\u09aa\u09a3\u09cd\u09af].\n","key":3744}
+{"rules":"1. Rewrite into two versions.\n2. Both of them should be funny.\n3. Separate the two versions using six asterisk symbols (******). \n4. Include the keywords ['dog', 'day'] in the response.\n","key":3748}
+{"rules":"1. Answer with exactly one of the following phrases: \"My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"\n","key":3749}
+{"rules":"1. Your answer must contain one of the following exact phrases: \"My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"\n","key":3750}
+{"rules":"1. Your answer must contain one of the following phrases:\n\nMy answer is yes.\n\nMy answer is no.\n\nMy answer is maybe.\n","key":3751}
+{"rules":"1. Your answer must contain one of the following exact phrases: \"My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"\n","key":3752}
+{"rules":"1. Answer \"My answer is yes.\" or \"My answer is no.\" or \"My answer is maybe.\"\n","key":3753}
+{"rules":"1. Your answer must contain exactly one of the following phrases:\n\nMy answer is yes.\n\nMy answer is no.\n\nMy answer is maybe.\n","key":3754}
+{"rules":"1. You should just say \"My answer is yes.\" or \"My answer is no.\" or \"My answer is maybe.\"\n","key":3755}
+{"rules":"1. Think out loud, then answer with one of the following options: \"My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"\n","key":3756}
+{"rules":"1. Choose from:\n\nMy answer is yes.\n\nMy answer is no.\n\nMy answer is maybe.\n\nJust choose one phrase from above as your answer.\n","key":3757}
