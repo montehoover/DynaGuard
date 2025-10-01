@@ -224,7 +224,7 @@ class HfModelWrapper(LocalModelWrapper):
 
 
 class VllmModelWrapper(LocalModelWrapper):
-    def __init__(self, model_name, temperature=0.6, top_k=20, top_p=0.95, min_p=0, max_new_tokens=1000, max_model_len=8192, custom_name=None):
+    def __init__(self, model_name, temperature=0.6, top_k=20, top_p=0.95, min_p=0, max_new_tokens=1000, max_model_len=8192, custom_name=None, gpu_mem_utilization=0.6):
         from vllm import LLM, SamplingParams
         super().__init__(model_name, temperature, top_k, top_p, min_p, max_new_tokens, custom_name)
         self.model = LLM(model=model_name, max_model_len=max_model_len, gpu_memory_utilization=0.35)

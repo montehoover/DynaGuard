@@ -18,6 +18,7 @@ A  project by: Monte Hoover, Vatsal Baherwani, Neel Jain, Khalid Saifullah, Jose
 ## Getting Started
 1. Install dependencies:
     ```
+    conda create -n dynaguard python=3.12
     pip install -r requirements.txt
     ```
 2. Evaluate a model on custom policies:

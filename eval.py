@@ -13,7 +13,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from model_wrappers import HfModelWrapper, VllmModelWrapper, ApiModelWrapper, BatchApiModelWrapper
 from constants import DYNAGUARD_AGENT_TAG, DYNAGUARD_CONTENT_TEMPLATE, DYNAGUARD_USER_TAG, GUARDREASONER_AGENT_TAG, GUARDREASONER_END_TAG, GUARDREASONER_NEG_LABEL, GUARDREASONER_POS_LABEL, GUARDREASONER_START_TAG, GUARDREASONER_TEMPLATE, GUARDREASONER_TEMPLATE_COMPLIANCE, GUARDREASONER_USER_TAG, HARM_RULE, HARM_TEMPLATE, LLAMAGUARD_AGENT_TAG, LLAMAGUARD_NEG_LABEL, LLAMAGUARD_POS_LABEL, LLAMAGUARD_TEMPLATE_COMPLIANCE, LLAMAGUARD_TEMPLATE, LLAMAGUARD_USER_TAG, DYNAGUARD_SYSTEM_PROMPT, NEG_LABEL, NEMOGUARD_AGENT_TAG, NEMOGUARD_JSON_KEY, NEMOGUARD_NEG_LABEL, NEMOGUARD_POS_LABEL, NEMOGUARD_TEMPLATE_COMPLIANCE, NEMOGUARD_TEMPLATE, INPUT_FIELD, NEMOGUARD_USER_TAG, OUTPUT_FIELD, POS_LABEL, SHIELDGEMMA_AGENT_TAG, SHIELDGEMMA_END_TAG, SHIELDGEMMA_NEG_LABEL, SHIELDGEMMA_POS_LABEL, SHIELDGEMMA_START_TAG, SHIELDGEMMA_TEMPLATE, SHIELDGEMMA_TEMPLATE_COMPLIANCE, SHIELDGEMMA_USER_TAG, WILDGUARD_AGENT_TAG, WILDGUARD_NEG_LABEL, WILDGUARD_POS_LABEL, WILDGUARD_TEMPLATE, WILDGUARD_TEMPLATE_COMPLIANCE, WILDGUARD_USER_TAG, WILDGUARD_START_TAG, WILDGUARD_END_TAG, DYNAGUARD_START_TAG, DYNAGUARD_END_TAG, LLAMAGUARD_START_TAG, LLAMAGUARD_END_TAG, NEMOGUARD_START_TAG, NEMOGUARD_END_TAG
-from helpers import format_user_agent_tags, get_dataset_labels, get_predicted_labels, get_transcript_from_safety_example, insert_rules_and_transcript_into_sysprompt, configure_logging, extract_xml_answer, get_analysis, get_binary_classification_report, get_stats, confirm_dataset_compatibility, map_llamaguard_output, create_enriched_outputs, map_nemoguard_output, print_formatted_report, save_consolidated_outputs, save_consolidated_analysis
+from helpers import average_analysis_dicts, format_user_agent_tags, get_dataset_labels, get_predicted_labels, get_transcript_from_safety_example, insert_rules_and_transcript_into_sysprompt, configure_logging, extract_xml_answer, get_analysis, get_binary_classification_report, get_stats, confirm_dataset_compatibility, map_llamaguard_output, create_enriched_outputs, map_nemoguard_output, print_formatted_report, save_consolidated_outputs, save_consolidated_analysis
 
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
@@ -88,7 +88,6 @@ def main(args):
             return True
         dataset = dataset.filter(is_valid_row)
 
-    # confirm_dataset_compatibility(dataset, args.multirule)
     n = args.num_examples if args.num_examples > 0 and args.num_examples < len(dataset) else len(dataset)
     # Shuffle to ensure we get a random subset. Don't shuffle if we're using the whole thing so we can keep track of indices for frequent misclassifications.
     if n < len(dataset):
@@ -129,7 +128,7 @@ def main(args):
         else:
             model_path = args.model
         if args.use_vllm:
-            model = VllmModelWrapper(model_path, temperature=temperature, top_k=top_k, top_p=top_p, max_new_tokens=args.max_new_tokens, max_model_len=args.max_model_len, custom_name=custom_name)
+            model = VllmModelWrapper(model_path, temperature=temperature, top_k=top_k, top_p=top_p, max_new_tokens=args.max_new_tokens, max_model_len=args.max_model_len, custom_name=custom_name, gpu_mem_utilization=args.gpu_mem_utilization)
         else:
             model = HfModelWrapper(model_path, temperature=temperature, top_k=top_k, top_p=top_p, max_new_tokens=args.max_new_tokens, custom_name=custom_name)
     
@@ -270,6 +269,7 @@ def main(args):
     false_positive_examples = []
     false_negative_examples = []
     missing_label_examples = []
+    wrong_predictions_multi = []
     for i in range(args.sample_size):
         outputs = model.get_responses(messages, logit_bias_dict=args.logit_bias_dict)
         
@@ -299,6 +299,9 @@ def main(args):
             false_positive_examples = stats["false_positives"]
             false_negative_examples = stats["false_negatives"]
             missing_label_examples = stats["nulls"]
+
+        if args.save_stats:
+            wrong_predictions_multi.append(stats["false_positives"] + stats["false_negatives"])
         
 
     ##################
@@ -393,10 +396,12 @@ def main(args):
     ) 
 
     # Do analysis over length of dialogues and length of rules and stuff
-    if args.handcrafted_analysis:
-        wrong_predictions = false_positive_examples + false_negative_examples
-        analysis_dict = get_analysis(dataset, wrong_predictions, strict=args.strict_metadata)
-        
+    if args.save_stats:
+        all_dicts = []
+        for wrong_predictions in wrong_predictions_multi:
+            all_dicts.append(get_analysis(dataset, wrong_predictions, strict=args.strict_metadata))
+        analysis_dict = average_analysis_dicts(all_dicts)
+
         # Save consolidated analysis for cross-model comparison
         save_consolidated_analysis(
             model_name=model_name,
@@ -440,6 +445,8 @@ def parse_args():
     parser.add_argument("--log_level", default=None, type=str, help="Log level", choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL", "debug", "info", "warning", "error", "critical"])
     parser.add_argument("--use_vllm", default=True, action=argparse.BooleanOptionalAction, help="Use VLLM for generation")
     parser.add_argument("--max_model_len", default=8192, type=int, help="Maximum context length for vllm. Should be based on the space of your gpu, not the model capabilities. If this is too high for the gpu, it will tell you.")
+    parser.add_argument("--gpu_mem_utilization", default=0.6, type=float, help="GPU memory utilization % for vllm. More utilization will make vllm faster, but leaves less memory for the model weights. Vllm will  tell you if this is too high.")
+
     # Generation parameters taken from gpt-fast
     parser.add_argument("--max_new_tokens", default=1024, type=int, help="Maximum tokens to generate")
     parser.add_argument("--temperature", default=0.6, type=float, help="Generation temperature")
@@ -451,14 +458,13 @@ def parse_args():
     # Error bands
     parser.add_argument("--sample_size", default=1, type=int, help="Number of samples used to calculate statistics.")
     parser.add_argument("--use_cot", default=True, action=argparse.BooleanOptionalAction, help="Use COT for generation")
-    parser.add_argument("--multirule", default=True, action=argparse.BooleanOptionalAction, help="Use multirule evaluation")
-    parser.add_argument("--handcrafted_analysis", default=False, action=argparse.BooleanOptionalAction, help="do handcrafted analysis")
+    parser.add_argument("--get_auc", default=True, action=argparse.BooleanOptionalAction, help="Calculate AUC for the model")
+    parser.add_argument("--collect_all", default=True, action=argparse.BooleanOptionalAction, help="Collect all outputs from multiple runs")
+    parser.add_argument("--save_stats", default=True, action=argparse.BooleanOptionalAction, help="do handcrafted analysis")
     parser.add_argument("--go_twice", default=False, action=argparse.BooleanOptionalAction, help="Run the model twice to get a better accuracy")
     parser.add_argument("--relaxed_parsing", default=False, action=argparse.BooleanOptionalAction, help="Use relaxed parsing for finding PASS/FAIL between the xml tags")
     parser.add_argument("--strict_metadata", default=False, action=argparse.BooleanOptionalAction, help="Fail fast with detailed error if metadata is missing instead of skipping examples")
-    parser.add_argument("--collect_all", default=False, action=argparse.BooleanOptionalAction, help="Collect all outputs from multiple runs")
     parser.add_argument("--enriched_outputs", default=False, action=argparse.BooleanOptionalAction, help="Enrich outputs with metadata and save to disk")
-    parser.add_argument("--get_auc", default=True, action=argparse.BooleanOptionalAction, help="Calculate AUC for the model")
     parser.add_argument("--target_fpr", default=0.05, type=float, help="Target false positive rate for AUC calculation")
     parser.add_argument("--logit_bias_dict", default=None, type=json.loads, help="Logit bias dictionary for the model. Should be a dict with token ids as keys and bias values as values. If not provided, no logit bias is applied.")
     parser.add_argument("--eval_with_target_fpr", default=False, action=argparse.BooleanOptionalAction, help="Run once to collect the logit bias required to achieve the target FPR. Then run again with this logit bias to get the final F1 score.")

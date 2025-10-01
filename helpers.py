@@ -9,6 +9,12 @@ import matplotlib as mpl
 from matplotlib import pyplot as plt
 import pandas as pd
 import numpy as np
+import logging
+import numpy as np
+from transformers import AutoTokenizer
+import yaml
+from typing import List, Dict, Any
+from collections import defaultdict
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, precision_recall_curve, confusion_matrix, roc_curve, precision_score, recall_score
 from constants import (
     COT_CLOSING,
@@ -39,10 +45,7 @@ from constants import (
     TRANSCRIPT_START,
     WILDGUARD_START_TAG,
 )
-import logging
-import numpy as np
-from transformers import AutoTokenizer
-import yaml
+
 logger = logging.getLogger(__name__)
 
 
@@ -804,6 +807,61 @@ def get_token_bucket(num_tokens):
         return 16000
     else:
         return 32000
+
+
+def average_analysis_dicts(dicts: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Average the values in specific accuracy fields across multiple analysis dictionaries.
+    
+    Args:
+        dicts: List of analysis dictionaries to average
+        
+    Returns:
+        A dictionary containing averaged values for the specified fields,
+        plus a field indicating how many dictionaries were averaged.
+    """
+    if not dicts:
+        raise ValueError("No dictionaries provided to average")
+    
+    # Fields to average
+    accuracy_fields = [
+        'num_turns_accuracy',
+        'num_rules_accuracy',
+        'failure_mode_accuracy',
+        'business_impact_accuracy',
+        'num_tokens_accuracy',
+        'num_counts_accuracy',
+        'num_hops_accuracy'
+    ]
+    
+    # Initialize result dictionary
+    result = {
+        'num_dicts_averaged': len(dicts)
+    }
+    
+    # Process each accuracy field
+    for field in accuracy_fields:
+        # Collect all values for each key across all dictionaries
+        key_values = defaultdict(list)
+        
+        for d in dicts:
+            if field in d and isinstance(d[field], dict):
+                for key, value in d[field].items():
+                    if isinstance(value, (int, float)):
+                        key_values[key].append(value)
+        
+        # Calculate averages for each key
+        averaged_field = {}
+        for key, values in key_values.items():
+            if values:  # Only average if we have values
+                averaged_field[key] = sum(values) / len(values)
+        
+        # Add the averaged field to result
+        if averaged_field:  # Only add if we have data
+            result[field] = averaged_field
+    
+    return result
+
 
 def get_analysis(dataset, wrong_predictions, strict=False):
     assert METADATA in dataset.column_names, f"Dataset {dataset} does not have {METADATA} field"
