@@ -332,7 +332,7 @@ def main(args):
     output_dataset.to_json(args.output_guard)
 
     # Run the CLI evaluation script after generating outputs
-
+    # Install the IFEval CLI runner from https://github.com/oKatanaaa/ifeval
     cli_command = [
         "python", "-m", "ifeval.cli",
         "--input_data=ifeval/input_data_hf.jsonl",
