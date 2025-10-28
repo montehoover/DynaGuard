@@ -1,5 +1,5 @@
 vllm
-pytorch
+torch
 transformers
 datasets
 peft
