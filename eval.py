@@ -445,7 +445,7 @@ def parse_args():
     parser.add_argument("--log_level", default=None, type=str, help="Log level", choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL", "debug", "info", "warning", "error", "critical"])
     parser.add_argument("--use_vllm", default=True, action=argparse.BooleanOptionalAction, help="Use VLLM for generation")
     parser.add_argument("--max_model_len", default=8192, type=int, help="Maximum context length for vllm. Should be based on the space of your gpu, not the model capabilities. If this is too high for the gpu, it will tell you.")
-    parser.add_argument("--gpu_mem_utilization", default=0.6, type=float, help="GPU memory utilization % for vllm. More utilization will make vllm faster, but leaves less memory for the model weights. Vllm will  tell you if this is too high.")
+    parser.add_argument("--gpu_mem_utilization", default=0.9, type=float, help="GPU memory utilization % for vllm. Vllm will tell you if this is too high.")
 
     # Generation parameters taken from gpt-fast
     parser.add_argument("--max_new_tokens", default=1024, type=int, help="Maximum tokens to generate")
