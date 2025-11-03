@@ -101,6 +101,7 @@ def main(args):
     print("Loading model:", args.model)
     custom_name = None
     if "qwen3" in args.model.lower():
+        # Use values recommended in model card at https://huggingface.co/Qwen/Qwen3-8B#switching-between-thinking-and-non-thinking-mode
         if args.use_cot:
             temperature = 0.6
             top_p = 0.95
