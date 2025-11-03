@@ -92,7 +92,7 @@ class LocalModelWrapper(ModelWrapper):
             # Handle the peculiarities of different models first, then handle thinking/non-thinking for all other types of models
             # All Safety models except GuardReasoner are non-thinking - there should be no option to "enable thinking"
             # For GuardReasoner, we should have both thinking and non-thinking modes, but the thinking mode has a special opening tag
-            if "qwen3" in self.model_name.lower():
+            if "qwen3" in self.model_name.lower() or "dynaguard" in self.model_name.lower():
                 if enable_thinking:
                     # Let the Qwen chat template handle the thinking token
                     message = self.get_message_template(system_content, user_content)
